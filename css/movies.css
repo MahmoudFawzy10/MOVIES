@@ -1,0 +1,61 @@
+	/* Google Fonts */
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+  /* Global Styles */
+  * {
+    font-family: "Poppins", sans-serif; /* Clean, modern font for easy readability */
+    box-sizing: border-box;
+    scroll-behavior: smooth; /* Smooth scrolling for a better user experience */
+    scroll-padding-top: 2rem; /* Keeps content centered during scrolling */
+    list-style: none;
+    text-decoration: none;
+  }
+  /* Color Variables */
+  :root {
+    --main-color: #ffb43a; /* Bright, warm yellow for highlights and interactive elements */
+    --hover-color: hsl(37, 94%, 57%); /* Slightly darker shade of yellow for hover effects */
+    --body-color: #1e1e2a; /* Dark background color to create contrast */
+    --container-color: #2d2e37; /* Darker container background for sections */
+    --text-color: #fcfeff; /* Light text color for high contrast against the dark background */
+}
+input:focus, textarea:focus, select:focus, button:focus {
+  outline: none;
+}
+/* Start home section */
+.home .container {
+  background-image: url(/img/home-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 20px;
+}
+/* End home section */
+/* Start popular section  */
+.popular .img-holder {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px; 
+  height: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+.popular .img-holder img {
+  transition: .3s ;
+}
+.popular .img-holder:Hover img {
+  transform:  scale(1.1);
+  cursor: pointer;
+}
+.popular h4 {
+  font-size: 20px;
+}
+/* End popular section  */
+/* Start trend-movie */
+.trend-movie .container {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+/* End trend-movie */
+/* start actors  */
+.actors .box {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+/* End actors  */

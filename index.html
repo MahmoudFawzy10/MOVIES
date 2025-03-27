@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOVIES</title>
+  <!-- web icon tab -->
+  <link rel="icon" href="/img/fav-icon.png" type="image/x-icon">
+    <!-- font Awsome -->
+  <link rel="stylesheet" href="/css/all.min.css">
+  <!-- this style for this web  -->
+  <link rel="stylesheet" href="/css/movies.css">
+</head>
+<body class="bg-[#1e1e2a] text-[#fcfeff]">
+  <!-- Start navbar  -->
+  <div class="navbar">
+    <div class="container w-[80%] mx-auto">
+        <nav class=" text-white py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <h1 class=" text-2xl font-bold uppercase">Movies</h1>
+            </div>
+            
+            <!-- Right side - Search and Profile -->
+            <div class="flex items-center space-x-4">
+                <input type="text" placeholder="Search..." class="px-4 py-2 border border-white rounded-[10px] md:block lg:block hidden">
+                <div class="w-10 h-10">
+                    <img src="/img/user.jpg" alt="Profile" class="w-full h-full object-cover rounded-full border-2 border-white">
+                </div>
+            </div>
+        </nav>
+    </div>
+  </div>
+  
+  <!-- End navbar -->
+  
+  <!-- Start home section  -->
+  <div class="home mt-[25px] capitalize  relative">
+    <div class="link-box lg:ps-8 absolute top-1/2 -translate-y-1/2 text-center hidden lg:block md:block">
+      <div class="box pt-7">
+        <i class="mb-3 fa-solid fa-house text-2xl text-[#ffb43a]"></i> 
+        <p>home</p>
+      </div>
+      <div class="box pt-7">
+        <i class="mb-3 fa-solid fa-arrow-trend-up text-2xl transition duration-200 hover:text-[#ffb43a] cursor-pointer"></i>
+
+        <p>trending</p>
+      </div>
+      <div class="box pt-7">
+        <i class="mb-3 fa-brands fa-wpexplorer text-2xl  transition duration-200 hover:text-[#ffb43a] cursor-pointer"></i>
+        <p>explore</p>
+      </div>
+      <div class="box pt-7">
+        <i class="mb-3 fa-solid fa-film text-2xl  transition duration-200 hover:text-[#ffb43a] cursor-pointer"></i>
+        <p>movies</p>
+      </div>
+      <div class="box pt-7">
+        <i class="mb-3 fa-solid fa-heart text-2xl  transition duration-200 hover:text-[#ffb43a] cursor-pointer"></i>
+        <p>favorites</p>
+      </div>
+    </div>
+    <div class="container w-[80%] mx-auto">
+        <div class="row flex items-center h-[80vh] justify-center lg:justify-start">
+            <div class="content lg:ms-[100px] text-center lg:text-start
+               py-5">
+                <h1 class="text-[40px] ">Hitman's Wife's <br> Bodyguard</h1>
+                <p class="pb-5">Releasing 10 April</p>
+                <div class="flex items-center space-x-4 mx-auto w-fit lg:ms-0">
+                    <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+                    <p>Watch the trailer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+  <!-- End home section  -->
+  <!-- Start main component  -->
+  <div class="main-component py-[50px]">
+    <div class="container w-[80%] mx-auto">
+      <h3 class="py-8 ps-4 bg-[#2d2e37] capitalize rounded-[10px]">popular movies</h3>
+    </div>
+  </div>
+  <!-- End main component  -->
+  <!-- Start popular movies  -->
+  <div class="popular">
+    <div class="container w-[80%] mx-auto">
+      <div class="row grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5">
+        <div class="box relative">
+        <div class="img-holder">
+          <img src="/img/popular-movie-1.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+        </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Spider-Man: No Way Home</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/popular-movie-2.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Jungle Cruise</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/popular-movie-3.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Loki</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/popular-movie-4.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Squid Game</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/popular-movie-5.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Winter Soldier</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/popular-movie-6.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Hawkeye</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/popular-movie-7.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Agents of S.H.I.E.L.D</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/popular-movie-8.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Flash Armageddon</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End popular movies  -->
+  <!-- Start main component  -->
+  <div class="main-component py-[50px]">
+    <div class="container w-[80%] mx-auto">
+      <h3 class="py-8 ps-4 bg-[#2d2e37] capitalize rounded-[10px]">Trending movie</h3>
+    </div>
+  </div>
+  <!-- End main component  -->
+  <!-- Start trend movie -->
+  <div class="trend-movie">
+    <div class="container w-[80%] mx-auto">
+      <div class="relative w-full h-screen bg-black flex items-center justify-center">
+        <!-- Video -->
+        <video id="video" class="w-full h-full object-cover hidden" controls>
+          <source src="/img/play-page/Jumanji.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      
+        <!-- Image as Video Placeholder -->
+        <img id="thumbnail" src="/img/play-page/play-background.jpg" class="absolute w-full h-full object-cover" alt="Thumbnail">
+      
+        <!-- Watch Button -->
+        <button id="watchButton" class="absolute px-6 py-3 bg-[#ffb43a] text-white font-bold rounded-lg shadow-lg hover:bg-[#e09e2d] transition">
+          Watch
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- End trend movie -->
+  <!-- Start main component  -->
+  <div class="main-component py-[50px]">
+    <div class="container w-[80%] mx-auto">
+      <h3 class="py-8 ps-4 bg-[#2d2e37] capitalize rounded-[10px]">our actors</h3>
+    </div>
+  </div>
+  <!-- End main component  -->
+  <!-- Start actors  -->
+  <div class="actors">
+    <div class="container w-[80%] mx-auto">
+      <div class="row grid lg:grid-cols-3 md:grid-cols-1 gap-4">
+        <!-- Box with The Rock's information -->
+        <div class="box lg:col-span-2 bg-gray-800 text-white p-6 rounded-lg shadow-lg ">
+          <h1 class="text-3xl font-bold mb-3">Dwayne "The Rock" Johnson</h1>
+          <p class="text-lg mb-4">
+            Dwayne Johnson is an American actor, producer, and former professional wrestler. Known for his charismatic personality and action-packed roles, he has starred in blockbuster movies such as *Fast & Furious*, *Jumanji*, and *Black Adam*.
+          </p>
+          <p class="text-md italic">Born: May 2, 1972</p>
+          <p class="text-md italic">Nationality: American</p>
+          <p class="text-md italic">Notable Films: Fast & Furious, Jumanji, Black Adam</p>
+        </div>
+        
+            <!-- Actor Image -->
+            <div class="box lg:col-span-1 h-[325px]">
+              <img src="/img/play-page/cast1.jpg" decoding="async" class="max-w-full rounded-lg shadow-lg w-full h-full object-cover " alt="The Rock">
+            </div>
+        <!-- Actor Image -->
+        <div class="box lg:col-span-2 bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+          <h1 class="text-3xl font-bold mb-3">Chadwick Boseman</h1>
+          <p class="text-lg mb-4">
+            Chadwick Boseman was an American actor known for his legendary role as *T’Challa / Black Panther* in the Marvel Cinematic Universe. His performances in *42*, *Get on Up*, and *Ma Rainey’s Black Bottom* showcased his incredible talent and versatility.
+          </p>
+          <p class="text-md italic">Born: November 29, 1976</p>
+          <p class="text-md italic">Died: August 28, 2020</p>
+          <p class="text-md italic">Notable Films: Black Panther, 42, Ma Rainey's Black Bottom</p>
+        </div>
+      <!-- Black Panther Actor - Chadwick Boseman -->
+          <div class="box lg:col-span-1 h-[325px]">
+            <img src="/img/play-page/cast3.jpg" decoding="async" class="max-w-full rounded-lg shadow-lg w-full h-full object-cover" alt="Chadwick Boseman">
+          </div>
+      
+
+          <!-- Titanic Actor - Leonardo DiCaprio -->
+          <div class="box lg:col-span-2 bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+            <h1 class="text-3xl font-bold mb-3">Leonardo DiCaprio</h1>
+            <p class="text-lg mb-4">
+              Leonardo DiCaprio is an award-winning actor, environmentalist, and film producer. He gained worldwide fame for playing *Jack Dawson* in *Titanic* and has since starred in critically acclaimed films like *Inception*, *The Wolf of Wall Street*, and *The Revenant*.
+            </p>
+            <p class="text-md italic">Born: November 11, 1974</p>
+            <p class="text-md italic">Nationality: American</p>
+            <p class="text-md italic">Notable Films: Titanic, Inception, The Wolf of Wall Street</p>
+          </div>
+
+          <div class="box lg:col-span-1 h-[325px]">
+            <img src="/img/play-page/cast4.jpg" decoding="async" class="max-w-full rounded-lg shadow-lg w-full h-full object-cover" alt="Leonardo DiCaprio">
+          </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Start actors  -->
+  <!-- Start main component  -->
+  <div class="main-component py-[50px]">
+    <div class="container w-[80%] mx-auto">
+      <h3 class="py-8 ps-4 bg-[#2d2e37] capitalize rounded-[10px]">movies and shows</h3>
+    </div>
+  </div>
+  <!-- End main component  -->
+  <!-- Start movies and shows -->
+  <div class="movies-and-shows popular">
+    <div class="container w-[80%] mx-auto">
+      <div class="row grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5">
+        <div class="box relative">
+        <div class="img-holder">
+          <img src="/img/movie-1.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+        </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Spider-Man: No Way Home</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/movie-2.jpg" decoding="async" class="max-w-full  w-full h-full object-cover " alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Jungle Cruise</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/movie-3.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Loki</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/movie-4.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Squid Game</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/movie-5.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Winter Soldier</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/movie-6.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Hawkeye</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/movie-7.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Agents of S.H.I.E.L.D</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+        <div class="box relative">
+          <div class="img-holder">
+            <img src="/img/movie-8.jpg" decoding="async" class="w-full h-full object-cover" alt="">
+          </div>
+          <div class="content absolute bottom-1 p-2 flex items-center justify-between w-full">
+            <h4 class="flex-1">Flash Armageddon</h4>
+            <i class="fa-solid fa-video p-3 border rounded-full bg-[#ffb43a]"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End movies and shows -->
+   <!-- Start main component  -->
+   <div class="main-component pt-[50px]">
+    <div class="container w-[80%] mx-auto">
+      <h3 class="py-8 ps-4 bg-[#2d2e37] capitalize text-center rounded-[10px]">All right saved &copy; for mahmoud fawzy</h3>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- Tailwind css link  -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- font Awsome -->
+  <script src="/js/all.min.js"></script>
+  <!-- script of jumanji video of this site -->
+  <script>
+    const video = document.getElementById("video");
+    const watchButton = document.getElementById("watchButton");
+    const thumbnail = document.getElementById("thumbnail");
+  
+    watchButton.addEventListener("click", () => {
+      watchButton.classList.add("hidden"); // Hide button
+      thumbnail.classList.add("hidden"); // Hide thumbnail image
+      video.classList.remove("hidden"); // Show video
+      video.play(); // Play the video
+  
+      video.onended = () => {
+        video.controls = false; // Disable controls after video ends
+      };
+    });
+  </script>
+</body>
+</html>
